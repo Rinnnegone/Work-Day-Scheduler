@@ -109,11 +109,7 @@ $(document).ready(function(){
     localStorage.setItem(hourSpan, JSON.stringify(userInput));
 
   })
-  // Button for clear all
-  $("#clearDay").on("click", function(){
-    localStorage.clear();
-    initPage()
-  }) 
+
 
 });
 
